@@ -359,8 +359,8 @@ if __name__ == "__main__":
     # batch[to_skim]['metadata'] = dict_meta
 
     #for i in range(0, len(files)):
-    for i in range(len(files)):
-        batch[to_skim]['files'][keys[i]] = files[keys[i]]
+    # for i in range(len(files)):
+    #     batch[to_skim]['files'][keys[i]] = files[keys[i]]
     
     tasks = dataset_tools.apply_to_fileset(
         analysis,
