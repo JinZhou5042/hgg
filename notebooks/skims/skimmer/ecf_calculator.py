@@ -31,7 +31,7 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore", "Please ensure")
     warnings.filterwarnings("ignore", "invalid value")
 
-######## Uncomment the following section if you need to create an input_datasets.json for new datasets ########
+    ######## Uncomment the following section if you need to create an input_datasets.json for new datasets ########
 
     # samples_path = '/project01/ndcms/cmoore24/samples'  ## Change this path to where data is
     # filelist = {}
