@@ -18,7 +18,7 @@ full_start = time.time()
 if __name__ == "__main__":
     m = DaskVine(
         [8123, 8128],
-        name=f"{os.environ['USER']}-hgg",
+        name=f"{os.environ['USER']}-hgg2",
         run_info_path=f"/project01/ndcms/{os.environ['USER']}/vine-run-info",
     )
 
